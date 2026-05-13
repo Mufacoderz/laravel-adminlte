@@ -144,7 +144,7 @@
           <!-- /.social-auth-links --> --}}
 
           <p class="mb-0">
-            <a href="login.html" class="link-primary text-center"> I already have a membership </a>
+            <a href="/login" class="link-primary text-center"> I already have a membership </a>
           </p>
         </div>
         <!-- /.register-card-body -->
