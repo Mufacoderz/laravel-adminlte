@@ -19,6 +19,9 @@
             <li class="nav-item d-none d-md-block">
               <a href="/kategori" class="nav-link">Kategori</a>
             </li>
+            <li class="nav-item d-none d-md-block">
+              <a href="/berita" class="nav-link">Berita</a>
+            </li>
           </ul>
           <!--end::Start Navbar Links-->
 

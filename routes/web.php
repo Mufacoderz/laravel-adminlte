@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\BeritaController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -20,5 +21,6 @@ Route::middleware('auth')->group(function(){
     });
 
     Route::resource('/kategori', KategoriController::class);
+    Route::resource('/berita', BeritaController::class);
 
 });
